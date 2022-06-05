@@ -14,4 +14,9 @@ export const SApp = styled.div`
 export const SContainer = styled.div`
     width: 740px;
     height: 1000px;
+
+    @media (max-width: 175px) { 
+        font-size: 11px;
+        background-color: red;
+    }
 `
